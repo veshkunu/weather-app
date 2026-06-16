@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:100px;
+    height:100vh;
+    border:1px solid yellow;
+}
+
+.main-content{
+    flex:1;
+    border: 1px solid green;
+}
+
+.forecast{
+    width:400px;
+    border:1px solid blue;
+}
