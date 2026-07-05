@@ -10,10 +10,23 @@
         <script src = "script.js"></script>
         <div class = "container">
             <div class = "sidebar">
-                <div>Weather</div>
-                <div>Cities</div>
-                <div>Map</div>
-                <div>Settings</div>
+                <img src = "icon.png" height = "40px" width = "40px">
+                <div class = "nav-item active">
+                    <i data-lucide = "cloud-sun"></i>
+                    <span>Weather</span>
+                </div>
+                <div class="nav-item">
+                    <i data-lucide="building-2"></i>
+                    <span>Cities</span>
+                </div>
+                <div class="nav-item">
+                    <i data-lucide ="map"></i>
+                    <span>Map</span>
+                </div>
+                <div class="nav-item">
+                    <i data-lucide="settings"></i>
+                    <span>Settings</span>
+                </div>
             </div>
             <div class = "main-content">
                 <input type="text" placeholder="City">
@@ -25,5 +38,9 @@
                 <div class="forecast-items"></div>
             </div>
         </div>
+        <script src = "https://unpkg.com/lucide@latest"></script>
+        <script>
+                lucide.createIcons();
+        </script>
     </body>
 </html>

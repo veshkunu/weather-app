@@ -77,3 +77,43 @@ input::placeholder{
     background:#202938;
     border-radius:20px;
 }
+
+.nav-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+
+    cursor:pointer;
+    color:#b4bcc8;
+    transition:0.3s;
+}
+
+.nav-items svg{
+    width:24px;
+    height:24px;
+}
+
+.nav-items span{
+    font-size:12px;
+}
+
+.nav-item:hover{
+    color:#ffffff;
+}
+
+.nav-item .active{
+    color:#ffffff;
+}
+
+img{
+    width:45px;
+    height:45px;
+    margin-top:35px;
+    cursor:pointer;
+}
+
+img:hover{
+    transform:scale(1.1);
+    transition:0.3s;
+}
