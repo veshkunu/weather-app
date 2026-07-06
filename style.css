@@ -106,14 +106,46 @@ input::placeholder{
     color:#ffffff;
 }
 
-img{
+.sidebar img{
     width:45px;
     height:45px;
     margin-top:35px;
     cursor:pointer;
 }
 
-img:hover{
+.sidebar img:hover{
     transform:scale(1.1);
     transition:0.3s;
+}
+
+.weather-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding:30px 40px;
+}
+
+.weather-text{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+    color:#c0c0c0;
+}
+
+.weather-info img{
+    width:200px;
+    height:200px;
+    align-self: flex-start;
+}
+
+.temperature{
+    font-size:70px;
+    color:#ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight:700;
+}
+
+.city{
+    font-size: 35px;
+    font-weight: normal;
 }

@@ -10,7 +10,7 @@
         <script src = "script.js"></script>
         <div class = "container">
             <div class = "sidebar">
-                <img src = "icon.png" height = "40px" width = "40px">
+                <img src = "icons/icon.png">
                 <div class = "nav-item active">
                     <i data-lucide = "cloud-sun"></i>
                     <span>Weather</span>
@@ -29,8 +29,21 @@
                 </div>
             </div>
             <div class = "main-content">
+
                 <input type="text" placeholder="City">
-                <div class = "weather-info"></div>
+
+                <div class = "weather-info">
+
+                    <div class = "weather-text">
+                        <h1>Madrid</h1>
+                        <p>Chance of rain:0%</p><br><br>
+                        <h2 class="temperature">30&deg;</h2>
+                    </div>
+
+                    <img src ="icons/sun.svg">
+
+                </div>
+
                 <div class = "hourly-forecast"></div>
                 <div class = "air-conditions"></div>
             </div>
